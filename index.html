@@ -23,36 +23,35 @@
 <header>
   
   <!-- Navbar  -->
-  
-  <nav class="navbar navbar- expand-lg navbar-light bg-transparent fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top">
+    
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="#">
         <img src="assets/img/viajes.svg" width="50" height="50" class="d-inline-block align-top" alt="">
         Viajes Chile
       </a>
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        
-        
-        <div class="collapse navbar-collapse text-rigth" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active text-white" href="#about">Inicio</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-white " href="#work">Quienes Somos</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-white" href="#contact">Destacados</a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link text-white" href="#contact">Contacto</a>
-              
-            </div>
-          </div>
-        </button>
-      </nav>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-rigth" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active text-white" href="#">Inicio</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white " href="#quienessomos">QuienesSomos</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="#destacados">Destacados</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link text-white" href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  
       
     </header>
     
@@ -81,10 +80,10 @@
       </div>
       <!-- icons  --> 
       
-      <section id="whoarewe" class="d-none d-md-block">
-        <section id="contact" class="container text-center my-5 pb-5" id="work">
+      <section id="quienessomos" class="d-none d-md-block">
+        <section  class="container text-center my-5 pb-5">
           <h2 class="font-weight-bold ">¿Quienes somos?</h2></section>
-          <section id="contact" class="container text-justify" id="work">
+          <section class="container text-justify" >
             <hr width=container  aligne="center"  size=1000 color="#007cba">
             <div class="row">
               
@@ -106,7 +105,7 @@
       </section>
       <!-- cards --> 
       
-      <section class="container text-light my-5 pb-5" id="featured">
+      <section class="container text-light my-5 pb-5" id="destacados">
         <h2 class="font-weight-bold ">Destacados</h2> 
         <div class="line border-info border-top pt-2 pb3"></div>
         <div class="row my-4">
@@ -155,7 +154,7 @@
     
     
     <!-- Typeform --> 
-    <section id="contact" class="container text-center my-5" id="work">
+    <section id="contact" class="container text-center my-5">
       <h2 class="font-weight-bold ">Contácto</h2>
       <hr width=container  aligne="right"  size=1000 color="#007cba">
       <div class="typeform-widget" data-url="https://wr7ptx8lwv6.typeform.com/to/jFRSAFYG" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
@@ -184,17 +183,17 @@
   
   
   <!--jQuery 3.3.1 sin slim-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <!--Bootstrap JS 4.5.3-->
-  <script src="assets/css/bootstrap.min.css"></script>
   
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  
+
   <!--Popper JS 1.14.3-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   
-  <!--Mi script-->
-  <script src="assets/js/script.js"></script>
+ 
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  
+   <!--Mi script-->
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
