@@ -1,13 +1,47 @@
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: #000000;
+  text-align: center;
+    color: #ffffff;
+}
+/* image */
+.header {
+  background-image: url('../img/carousel1.jpg') ;
+  background-repeat: no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
+}
+ 
+
+/* The navigation bar */
+.header.navbar {
+  overflow: hidden;
+  background-color:transparent;border:none!important;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
-header {
-  background-image: url('../img/bg-hero.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
-  padding-bottom: 10rem;
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: font-weight-bold ;
+}
+
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: transparent;
+  color:transparent;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
 .carousel-indicators {
@@ -19,3 +53,51 @@ header {
   height: 10px;
   border-radius: 50%;
 }
+
+
+.desc-section {
+  background-color: #000000;
+  padding: 2rem;
+}
+footer {
+  text-align: left;
+  background:#21acb6;
+  height: 80px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+footer h2 {
+  vertical-align: middle;
+  padding-top: 18px;
+}
+footer i {
+  margin: 0 0.25em 0.5em 0.25em;
+}
+.icono svg {
+  fill: #ffffff;
+}
+.fa-bullhorn:before {
+    content: "\f0a1";
+}
+
+/* fas fa */
+
+.fas-fa-plane-fa {
+  background: #3fc2ff;
+  background-size: auto;
+  display: inline-block;
+  color: #1F7F6B;
+  font-size: 30px;
+  padding: 5px;
+}
+.fas-fa-map-marker {
+  background: #3fc2ff;
+  background-size: auto;
+  color: #1F7F6B;
+  font-size: 30px;
+  padding: 5px;
+}
+.card-columns {
+    column-count: 4;
+  }
+  
