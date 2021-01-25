@@ -2,7 +2,7 @@ body {
   font-family: 'Raleway', sans-serif;
   background-color: #000000;
   text-align: center;
-    color: #ffffff;
+  color: #ffffff;
 }
 /* image */
 .header {
@@ -11,7 +11,7 @@ body {
   background-size: cover;
   min-height: 100vh;
 }
- 
+
 
 /* The navigation bar */
 .header.navbar {
@@ -37,7 +37,7 @@ body {
 .navbar a:hover {
   background: transparent;
   color:white;
- 
+  
 }
 
 /* Main content */
@@ -61,26 +61,19 @@ body {
 footer {
   text-align: left;
   background:#21acb6;
-  height: 80px;
+  height: 50px;
   font-family: 'Raleway', sans-serif;
   color: white;
-}
-footer h2 {
-  vertical-align: middle;
-  padding-top: 18px;
-}
-footer i {
-  margin: 0 0.25em 0.5em 0.25em;
 }
 
 .icono svg {
   fill: #ffffff;
 }
 .fa-bullhorn:before {
-    content: "\f0a1";
+  content: "\f0a1";
 }
 
-/* fas fa */
+/* icons */
 
 .fas-fa-plane-fa {
   background: #3fc2ff;
@@ -98,8 +91,8 @@ footer i {
   padding: 5px;
 }
 .card-columns {
-    column-count: 4;
-  }
-  .card {
-    min-height: 100px;
+  column-count: 4;
+}
+.card {
+  min-height: 100px;
 }
