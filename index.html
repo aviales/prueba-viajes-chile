@@ -23,47 +23,34 @@
 <header>
   
   <!-- Navbar  -->
-  <section class="text-white p-5 ">
-    <div class="navbar"></div>
-    <nav class="navbar navbar-light ">
-      <a class="navbar-brand" href="#">
+  
+  <nav class="navbar navbar-light bg-transparent fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">
         <img src="assets/img/viajes.svg" width="50" height="50" class="d-inline-block align-top" alt="">
-        Viajes Chile 
+        Viajes Chile
       </a>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#"><strong>Inicio</strong></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Quienes somos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Destacados</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-  <div class="main">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#about">Acerca de mí</a>
-        </li>
-        
-      </ul>
-    </div>
-  </div>
-</div>
-</nav>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#about">Inicio</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white " href="#work">Quienes Somos</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#contact">Destacados</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#contact">Contacto</a>
+
 </header>
-</section>
+
 <body>
   <!-- Carousel --> 
   <div id="carouselExampleControlsNoTouching" class="carousel slide" data-touch="false" data-interval="false">
@@ -89,105 +76,104 @@
   </div>
   <!-- icons  --> 
   
-  <section id="contact" class="container text-center my-5 d-sm-nome d-md-block" id="work">
-    <h2 class="font-weight-bold ">¿Quienes somos?</h2>
-    <hr width=container  aligne="right"  size=1000 color="#007cba">
-    <div class="row">
+  <section id="whoarewe" class="d-none d-md-block">
+    <section id="contact" class="container text-center my-5 pb-5" id="work">
+      <h2 class="font-weight-bold ">¿Quienes somos?</h2></section>
+      <section id="contact" class="container text-justify" id="work">
+        <hr width=container  aligne="center"  size=1000 color="#007cba">
+        <div class="row">
+          
+          <div class="col-md-4 ">
+            <i class="fas fa-plane fa-3x my-3 bg-primary col-md-12 "></i>
+            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="col-md-4">
+            <p class="my-3"style="text-align": justify; >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <i class="fas fa-exclamation-triangle fa-3x my-3 bg-primary col-md-12 "></i>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-map-marker-alt fa-3x my-3 bg-primary col-md-12 "></i>
+            <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <!-- cards --> 
+  
+  <section class="container text-light my-5 pb-5" id="featured">
+    <h2 class="font-weight-bold ">Destacados</h2> 
+    <div class="line border-info border-top pt-2 pb3"></div>
+    <div class="row my-4">
+      <div class="col-sm d-flex">
+        <div class="card-deck">
+          
+          <div class="card text-left bg-info">
+            <img class="card-img-top" src="assets/img/card1.jpg" class="Card image-top" alt="">
+            <div class="card-body font-weight-light ">
+              <h5 class="card-title display-5">Lorem, ipsum dolor.</h5>
+              <p class="card-text card-11">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
+            </div>
+          </div>
+          <div class="card text-left bg-info">
+            <img class="card-img-top" src="assets/img/card2.jpg" class="Card image-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title bg-display-5">Lorem, ipsum dolor.</h5>
+              <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
+              
+            </div>
+          </div>
+          <div class="card text-left font-weight-light bg-info">
+            <img class="card-img-top " src="assets/img/card3.jpg" class="Card image image-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title bg-display-5">Lorem, ipsum dolor.</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
+              
+            </div>
+          </div>
+          <div class="card text-left font-weight-light bg-info">
+            <img class="card-img-top " src="assets/img/card4.jpg" class="Card image image-top" alt="">
+            <div class="card-body ">
+              <h5 class="card-title bg-display-5">Lorem, ipsum dolor.</h5>
+              <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
       
-      <div class="col-md-4 ">
-        <i class="fas fa-plane fa-3x my-3 bg-primary col-md-12 "></i>
-        <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <div class="col-md-4">
-        <p class="my-3"style="text-align": justify; >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <i class="fas fa-exclamation-triangle fa-3x my-3 bg-primary col-md-12 "></i>
-      </div>
-      <div class="col-md-4">
-        <i class="fas fa-map-marker-alt fa-3x my-3 bg-primary col-md-12 "></i>
-        <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
     </div>
+    
   </div>
 </section>
-<!-- cards --> 
 
-<section class="container text-center my-5" id="work">
-  <h2 class="font-weight-bold ">Destacados</h2> <p>
-    <hr width=container  aligne="right"  size=1000 color="#007cba">
-    <p>
-      
-      <div class="row my-4">
-        <div class="col-sm d-flex">
-          <div class="card card-body flex-fill">
-            
-            <img class="card-img-top" src="assets/img/card1.jpg" alt="Card image cap">
-            <div class="card-body bg-primary ">
-              <h5 class="card-title bg-primary">Lorem, ipsum dolor.</h5>
-              <p class="card-text bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top" src="assets/img/card2.jpg" alt="Card image cap">
-            <div class="card-body bg-primary ">
-              <h5 class="card-title bg-primary">Lorem, ipsum dolor.</h5>
-              <p class="card-text bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
-              
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top " src="assets/img/card3.jpg" alt="Card image cap">
-            <div class="card-body bg-primary ">
-              <h5 class="card-title bg-primary">Lorem, ipsum dolor.</h5>
-              <p class="card-text bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
-              
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top " src="assets/img/card4.jpg" alt="Card image cap">
-            <div class="card-body bg-primary ">
-              <h5 class="card-title bg-primary">Lorem, ipsum dolor.</h5>
-              <p class="card-text bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt a culpa doloremque voluptatem dicta nam. Maxime ipsum, consequatur quos error fuga excepturi quo. Laudantium optio pariatur laboriosam modi, ea molestias?</p>
-              
-            </div>
-          </div>
-          
-        </div>
-        
+
+
+<!-- Typeform --> 
+<section id="contact" class="container text-center my-5" id="work">
+  <h2 class="font-weight-bold ">Contácto</h2>
+  <hr width=container  aligne="right"  size=1000 color="#007cba">
+  <div class="typeform-widget" data-url="https://wr7ptx8lwv6.typeform.com/to/jFRSAFYG" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
+</section>
+
+<!-- Footer --> 
+<footer class="azul text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-2">
+        <h5 class="text-nowrap ml-5 text-left">VIAJES CHILE</h5>
       </div>
-      
-      
+      <div class="col-8">
+        <div class="justify-content-between text-rigth py-2 mr-0">
+          <i class="fab fa-github-square fa-2x pl-2"></i>
+          <i class="fab fa-linkedin fa-2x pl-2"></i>
+          <i class="fab fa-twitter-square fa-2x pl-2"></i>
+          <i class="fab fa-facebook fa-2x pl-2"></i>
+        </div>  
+      </div>
     </div>
-  </section>
-  
-  
-  
-  <!-- Typeform --> 
-  <section id="contact" class="container text-center my-5" id="work">
-    <h2 class="font-weight-bold ">Contácto</h2>
-    <hr width=container  aligne="right"  size=1000 color="#007cba">
-    <div class="typeform-widget" data-url="https://wr7ptx8lwv6.typeform.com/to/jFRSAFYG" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=AYVtoJ&utm_source=typeform.com-13260463-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank">Typeform</a> </div>
-  </section>
-  
-  <!-- Footer --> 
-  <footer class="container-fluid bg-info text-white"></footer>
-  <div class="container icons d-flex justify-content-between align-items-center px-3">
-    <p> VIAJES CHILE</p> 
-    <ul class="footer-icons list-style-none text-white-decoration-none">
-      <li class="d-inline">
-        <a href="https://github.com"><i class="fab fa-github-square fa-5x "></i></a>
-      </li>
-      <li class="d-inline">
-        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-5x bg-luz"></i></a>   
-      </li>
-      <li class="d-inline">
-        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-5x bg-luz"></i></a>
-      </li>
-      <li class="d-inline">  
-        <a href="https://www.facebook.com"><i class="fab fa-facebook fa-5x bg-luz"></i></a>    
-      </li>     
-    </ul>    
   </div>
-  
+</div>
 </footer>
 
 

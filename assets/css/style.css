@@ -13,32 +13,6 @@ body {
 }
 
 
-/* The navigation bar */
-.header.navbar {
-  overflow: hidden;
-  background-color:transparent;border:none!important;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: center;
-  display: block;
-  color: #f2f2f2;
-  text-align: right;
-  padding: 14px 16px;
-  text-decoration: font-weight-bold ;
-}
-
-
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: transparent;
-  color:white;
-  
-}
 
 /* Main content */
 .main {
@@ -59,7 +33,7 @@ body {
   padding: 2rem;
 }
 footer {
-  text-align: left;
+  text-align: right;
   background:#21acb6;
   height: 50px;
   font-family: 'Raleway', sans-serif;
@@ -75,21 +49,6 @@ footer {
 
 /* icons */
 
-.fas-fa-plane-fa {
-  background: #3fc2ff;
-  background-size: auto;
-  display: inline-block;
-  color: #1F7F6B;
-  font-size: 30px;
-  padding: 5px;
-}
-.fas-fa-map-marker {
-  background: #3fc2ff;
-  background-size: auto;
-  color: #1F7F6B;
-  font-size: 30px;
-  padding: 5px;
-}
 .card-columns {
   column-count: 4;
 }

@@ -1,24 +1,22 @@
 
-<script src="assets/js/bootstrap.min.js"></script>
 $(function(){
-  
+
   $("a").click(function(event){
     if (this.hash !== "") {
       event.preventDefault();
-      
-      var hash = this.hash;
-      
+
+      var gato = this.hash;
+
       $("html, body").animate({
-        scrollTop: $(hash).offset().top
+        scrollTop: $(gato).offset().top
       }, 800, function(){
-        window.location.hash = hash;
+        window.location.hash = gato;
       });
     }
   });
-  
+
   $('[data-toggle="popover"]').popover();
-  
-});
+
 
 
 $('.carousel').carousel()
