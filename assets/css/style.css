@@ -24,10 +24,10 @@ body {
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
+  float: center;
   display: block;
   color: #f2f2f2;
-  text-align: center;
+  text-align: right;
   padding: 14px 16px;
   text-decoration: font-weight-bold ;
 }
@@ -36,7 +36,8 @@ body {
 /* Change background on mouse-over */
 .navbar a:hover {
   background: transparent;
-  color:transparent;
+  color:white;
+ 
 }
 
 /* Main content */
@@ -44,16 +45,14 @@ body {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
 }
 
-.carousel-indicators {
-  top: 50px;
+.container-fluid {
+  height: 100%;
+  width: 250%;
 }
 
-.carousel-indicators li {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
+.carousel-inner img {
+  height: 1000px;
 }
-
 
 .desc-section {
   background-color: #000000;
@@ -73,6 +72,7 @@ footer h2 {
 footer i {
   margin: 0 0.25em 0.5em 0.25em;
 }
+
 .icono svg {
   fill: #ffffff;
 }
@@ -100,4 +100,6 @@ footer i {
 .card-columns {
     column-count: 4;
   }
-  
+  .card {
+    min-height: 100px;
+}
